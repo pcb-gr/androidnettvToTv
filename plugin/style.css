@@ -1,0 +1,16 @@
+body div {
+	float: left;
+}
+
+#channel-aria img {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin: 5px;
+	border: 1px solid;
+}
+
+.video-js {
+	width: 100%!important;
+	height: 570px!important;
+}

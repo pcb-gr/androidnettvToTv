@@ -1,0 +1,23 @@
+{
+	"name": "AndroidNetToTvPlugin",
+	"version": "0.1",
+	"description": "AndroidNetToTvPlugin",
+	"manifest_version": 2,
+	"permissions": [
+		"<all_urls>",
+		"webRequest",
+		"webRequestBlocking",
+		"tabs",
+		"activeTab",
+		"contextMenus",
+		"management",
+		"notifications",
+		"storage",
+		"identity",
+		"webRequest",
+		"webRequestBlocking"
+	],
+	"browser_action": {
+		"default_popup": "popup.html"
+	}
+}
